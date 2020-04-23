@@ -1,0 +1,9 @@
+{
+  "short_name": "test blog",
+  "name": "aws test blog pkro",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

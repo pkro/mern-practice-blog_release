@@ -1,0 +1,39 @@
+{
+  "name": "react_full_stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --exec babel-node src/server.js",
+    "client": "npm start --prefix my-blog",
+    "start": "babel-node src/server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkro/mern-practice-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkro/mern-practice-blog/issues"
+  },
+  "homepage": "https://github.com/pkro/mern-practice-blog#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.9"
+  }
+}
